@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimercado Fácil</title>
+    <link rel="stylesheet" href="/Projeto - Fase 2/Minimercado/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Minimercado Fácil</h1>
+        <p>Seu mercado online para as melhores compras do dia a dia, com qualidade, preços acessíveis e entrega rápida.</p>
+    </header>
+
+    <!-- Seção de Agendamento -->
+    <section id="agendamento">
+        <h2>Agendamento</h2>
+        <form id="agendamentoForm">
+            <label for="tipoAgendamento">Selecione o tipo de agendamento:</label>
+            <select id="tipoAgendamento" name="tipoAgendamento">
+                <option value="retirada">Retirada no Local</option>
+                <option value="entrega">Tele-Entrega</option>
+            </select>
+
+            <label for="dataAgendamento">Escolha a data e horário:</label>
+            <input type="text" id="dataAgendamento" name="dataAgendamento" placeholder="Selecione a data e horário" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+
+    <section>
+        <!-- Categoria: Frutas e Verduras -->
+        <h3>Frutas e Verduras</h3>
+        <div>
+            <p type='preço'><strong>Banana</strong> - R$ 2,99/kg</p>
+            <img type='img' src="https://5.imimg.com/data5/SELLER/Default/2020/10/JW/RZ/DT/70128639/g-9-500x500.jpg" alt="Bananas frescas em um cacho" width="100">
+            <p type = 'desc'>• Bananas frescas e saborosas. Perfeitas para o seu lanche ou para receitas saudáveis.</p>
+        </div>
+        <div>
+            <p type='preço'><strong>Alface</strong> - R$ 1,99/unidade</p>
+            <img type='img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmnMp_LqRaS3ngZSVQxcA6bcRJ-YVKWWZrQ&s" alt="Folhas frescas de alface" width="100">
+            <p type = 'desc'>• Folhas frescas e crocantes, ideais para saladas e acompanhamentos saudáveis.</p>
+        </div>
+
+        <!-- Categoria: Produtos Alimentícios Não Perecíveis -->
+        <h3>Produtos Alimentícios Não Perecíveis</h3>
+        <div>
+            <p type='preço'><strong>Arroz</strong> - R$ 12,99/1kg</p>
+            <img type='img' src="https://st.depositphotos.com/1005708/3448/i/450/depositphotos_34488037-stock-photo-white-uncooked-rice.jpg" alt="Arroz branco cru" width="100">
+            <p type = 'desc'>• Arroz de alta qualidade, perfeito para acompanhar suas refeições do dia a dia.</p>
+        </div>
+        <div>
+            <p type='preço'><strong>Feijão</strong> - R$ 7,99/1kg</p>
+            <img type='img' src="https://i.pinimg.com/736x/be/58/48/be584822ec01e20458f278b6ebef2052.jpg" alt="Feijão preto cru" width="100">
+            <p type = 'desc'>• Feijão preto de excelente qualidade, ideal para preparar o clássico arroz e feijão.</p>
+        </div>
+
+        <!-- Categoria: Produtos de Higiene e Limpeza -->
+        <h3>Produtos de Higiene e Limpeza</h3>
+        <div>
+            <p type='preço'><strong>Sabão em Pó</strong> - R$ 8,99/500g</p>
+            <img type='img' src="https://www.ultrapack.com.br/wp-content/uploads/2020/07/15517GIR_MKP_LavaRoupasPo_2kg_RosaFloral-300x415-1-300x300.png" alt="Pacote de sabão em pó rosa" width="100">
+            <p type = 'desc'>• Sabão em pó eficaz para deixar suas roupas limpas e perfumadas.</p>
+        </div>
+        <div>
+            <p type='preço'><strong>Desinfetante</strong> - R$ 5,99/500ml</p>
+            <img type='img' src="https://m.media-amazon.com/images/I/71d0JxNRdbL._AC_UF350,350_QL80_.jpg" alt="Garrafa de desinfetante com fragrância de lavanda" width="100">
+            <p type = 'desc'>• Desinfetante com fragrância de lavanda, ideal para manter sua casa limpa e com cheiro agradável.</p>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <p type='servi'>O Minimercado Fácil oferece mais do que produtos! Temos serviços práticos para você:</p>
+        
+        <!-- Serviço: Retirada no Local -->
+        <h4>Retirada no Local</h4>
+        <p type='serv'>Comodidade e economia! Você pode fazer sua compra online e retirar no nosso ponto de venda sem custo adicional.</p>
+
+        <!-- Serviço: Tele-Entrega -->
+        <h4>Tele-Entrega</h4>
+        <p type='serv'>Entregamos sua compra no conforto da sua casa! Apenas R$ 7,00 para entregas rápidas e seguras.</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <h4>Entre em Contato</h4>
+        <section type="footer"><p>Minimercado Fácil | <strong>Telefone:</strong> (51) 1234-5678 | <strong>Email:</strong> contato@minimercadofacil.com.br</p>
+        <p>Nos siga nas redes sociais:</p>
+        <ul>
+            <strong>Facebook</strong> - @MinimercadoFácil<br>
+            <strong>Instagram</strong> - @MinimercadoFácil
+        </ul>
+        <p>&copy; 2024 Minimercado Fácil. Todos os direitos reservados.</p></section>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.js"></script>
+    <script src='/Projeto - Fase 2/Minimercado/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Funnel+Display', sans-serif;
+    background-color: rgb(203, 207, 172);
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+header {
+    background-color: rgb(27, 75, 0);
+    text-align: center;
+    padding: 2rem;
+    color:rgb(252, 244, 226)
+}
+
+h3 {
+    color: rgb(191, 219, 174);
+    padding-top: 1rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-color: black;
+    border-radius: 0px;
+    text-align: center;
+    background-color: rgb(108, 135, 92);
+}
+
+div {
+    padding: 1.5rem;
+}
+
+p[type='desc']{
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    color: rgb(48, 75, 46);
+}
+
+p[type='preço']{
+    padding: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    width: 40%;
+    background-color: rgb(108, 135, 92);
+    height: 20px;
+    border-radius: 8px;
+    color: rgb(191, 219, 174);
+}
+
+img[type='img']{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h2{
+    color: rgb(191, 219, 174);
+    text-align: center;
+    padding-top: 5rem;
+    padding: 2rem;
+    background-color: rgb(48, 75, 46);
+}
+
+h4{
+    color: rgb(48, 75, 46);
+    padding: 2rem;
+}
+
+p[type='serv']{
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+p[ type='servi']{
+    color: rgb(191, 219, 174);
+    text-align: center;
+    background-color: rgb(48, 75, 46);
+    height: 50px;
+}
+
+section[type="footer"]{
+    padding: 2rem;
+    padding-top: 0rem;
+}
